@@ -28,7 +28,7 @@ basic = basic[['code', 'name', 'outstanding']]
 # ========第一步 首先按日期导入逐笔数据========
 
 # 以后可不用移动源数据文件夹，直接改这个日期，但应注意星期天无数据
-os.chdir('E:/2018_tick_data/201811/2018-11-14')
+os.chdir('E:/2018_tick_data/201811/2018-11-15')
 file_chdir = os.getcwd()
 
 # 读取文件所在目录，获取文件名列表
